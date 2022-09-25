@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyD99axKm0XLVHH6wrLZAiysUIcLUB2oxn8',
+    authDomain: 'jadist-sembako.firebaseapp.com',
+    databaseURL:
+      'https://jadist-sembako-default-rtdb.asia-southeast1.firebasedatabase.app',
+    projectId: 'jadist-sembako',
+    storageBucket: 'jadist-sembako.appspot.com',
+    messagingSenderId: '21496224269',
+    appId: '1:21496224269:web:1f203cc3608a39ac795344',
+    measurementId: 'G-C9NHYCKQJT',
+  },
 };
 
 /*
